@@ -66,7 +66,7 @@
   --primary-foreground-50: oklch(0.97 0.017 236.685 / 0.5);
 
   --secondary: oklch(0.4274 0.1484 345.17); /* ShadCN expects this to be a lighter color, button variants look wierd */
-  --secondary-foreground: oklch(0.1898 0.0352 222.38);
+  --secondary-foreground: oklch(0.3727 0.0753 316.3);
 
   --muted: oklch(0.316 0.0828 246.83);
   --muted-foreground: oklch(89.353% 0.04551 238.153);
