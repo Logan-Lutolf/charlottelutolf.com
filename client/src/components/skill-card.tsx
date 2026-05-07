@@ -9,7 +9,7 @@ type skillCardProps = {
 export function SkillCard ({ skills, title } : skillCardProps) {
     return (
         <>
-            <div className={"w-1/5 flex flex-col pl-2 bg-"}>
+            <div className={"w-full flex flex-col pl-2"}>
 
                 <Card className={"bg-secondary-foreground flex flex-col gap-3 border border-accent max-h-96"}>
                     <CardHeader className={"text-background text-lg"}>{title}</CardHeader>
