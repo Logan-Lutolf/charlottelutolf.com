@@ -12,7 +12,7 @@ type projectCardProps = {
 export function ProjectCard (props: projectCardProps) {
     return (
         <>
-            <Card className={"h-full border border-accent justify-between flex flex-col items-start max-w-1/4 gap-1 pb-3 transition duration-100 shadow-xl hover:-translate-x-2 hover:-translate-y-2 overflow-hidden"}>
+            <Card className={"w-96 h-full border border-accent justify-between flex flex-col items-start gap-1 pb-3 transition duration-100 shadow-xl hover:-translate-x-2 hover:-translate-y-2 overflow-hidden"}>
                 <img
                     src={props.imgUrl}
                     alt={props.header}
